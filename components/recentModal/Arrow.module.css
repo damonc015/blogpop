@@ -1,0 +1,24 @@
+.leftArrow {
+  left: 15%;
+  position: absolute;
+  z-index: 1000;
+  font-size: 1.5rem;
+  transition: all .2s ease-out;
+}
+.rightArrow {
+  right: 15%;
+  position: absolute;
+  z-index: 1000;
+  font-size: 1.5rem;
+  transition: all .2s ease-out;
+}
+.leftArrow:hover{
+    filter:invert(60%);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.rightArrow:hover{
+    filter:invert(60%);
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.rowItem {
+  position: relative;
+  width: calc(100% / 3);
+  background-color: #fbf9f5;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #912a2163;
+}
+.rowItem:hover > .itemPreview {
+  cursor: pointer;
+  height: 100%;
+}
+.rowItem:hover .rowItemSnippet {
+  height: auto;
+  overflow: visible;
+}
+.image {
+  object-fit: cover;
+}
+.itemPreview {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(252, 252, 252, 0.85);
+  transition: all 0.5s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rowItemTitle {
+  width: 80%;
+  font-family: "Fuzzy Bubbles", cursive;
+  text-align: center;
+  color: #912a21;
+}
+.rowItemSnippet {
+  width: 100%;
+  padding: 0 2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  overflow: hidden;
+  font-family: "Fuzzy Bubbles", cursive;
+  text-align: justify;
+  font-weight: 500;
+  height: 0;
+  transition: all 0.5s ease-out;
+}
+
+@media (min-width: 1500px) {
+  .rowItem {
+    height: 35vh;
+  }
+}
+@media (max-width: 1150px) {
+  .itemPreview {
+    height: 35%;
+  }
+}
+@media (max-width: 1000px) {
+  .rowItem:hover .rowItemSnippet {
+    height: 0;
+    overflow: hidden
+  }
+}
+@media (max-width: 700px) {
+  .rowItem {
+    width: 80%;
+  }
+  .rowItem:hover .rowItemSnippet {
+    height: auto;
+    overflow: visible;
+  }
+}
+
+
+

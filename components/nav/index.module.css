@@ -1,0 +1,56 @@
+.container {
+  width: 100vw;
+  height: 3.5rem;
+  background-color: #fbf9f5;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 2000;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+.logo {
+  font-family: "Henny Penny", cursive;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-size: 1.5rem;
+  color: #912a21;
+}
+.listContainer {
+  list-style-type: none;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 20vw;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.listItem {
+  padding: 0 1rem;
+  transition: all 0.25s ease-out;
+}
+.listItem:hover {
+  filter: invert(60%);
+  transform: translateY(-0.1rem);
+}
+
+@media (max-width: 550px) {
+  .container{
+    font-size: .9rem;
+  }
+  .nav{
+    width: 80vw;
+  }
+  .logo{
+    font-size: 1.1rem;
+  }
+  .listContainer{
+    padding: 0 .5rem;
+  }
+}

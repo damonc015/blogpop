@@ -1,0 +1,125 @@
+.modalContainer {
+  height: 40rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  --transitionModal: 1s;
+  --perspectiveBase: 2rem;
+  --itemW:90%;
+  --itemH:100%;
+  --startX:0rem;
+  --startZ:0rem;
+  --quarterX:-25rem;
+  --quarterZ:-.75rem;
+  --halfX: 0rem;
+  --halfZ:-1.5rem;
+  --TquarterX:25rem;
+  --TquarterZ:-.75rem;
+  --modalItemColor:white;
+  --modalItemBorderRadius:10px;
+}
+.modalItemsContainer {
+  position: relative;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.modalItemStart {
+  background-color: var(--modalItemColor);
+  border-radius: var(--modalItemBorderRadius);
+  position: absolute;
+  width: var(--itemW);
+  height: var(--itemH);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  animation: position0_4 1s ease-out forwards;
+  transition: all var(--transitionModal) linear;
+}
+.modalItemQuarter {
+  background-color: var(--modalItemColor);
+  border-radius: var(--modalItemBorderRadius);
+  position: absolute;
+  width: var(--itemW);
+  height: var(--itemH);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 80;
+  animation: position1_4 1s ease-out forwards;
+  transition: all var(--transitionModal) linear;
+}
+.modalItemHalf {
+  background-color: var(--modalItemColor);
+  border-radius: var(--modalItemBorderRadius);
+  position: absolute;
+  width: var(--itemW);
+  height: var(--itemH);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 80;
+  animation: position2_4 1s ease-out forwards;
+  transition: all var(--transitionModal) linear;
+}
+.modalItemThreeQuarter {
+  background-color: var(--modalItemColor);
+  border-radius: var(--modalItemBorderRadius);
+  position: absolute;
+  width: var(--itemW);
+  height: var(--itemH);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 80;
+  animation: position3_4 1s ease-out forwards;
+  transition: all var(--transitionModal) linear;
+}
+
+@keyframes position0_4 {
+  0% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--TquarterX), 0, var(--TquarterZ));
+    opacity: .2;
+  }
+  100% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--startX), 0rem, var(--startZ));
+    opacity: 1;
+  }
+}
+@keyframes position1_4 {
+  0% {
+    transform: perspective(var(--perspectiveBase)) translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--quarterX), 0rem, var(--quarterZ));
+    opacity: .2;
+  }
+}
+@keyframes position2_4 {
+  0% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--quarterX), 0, var(--quarterZ));
+    opacity: .2;
+  }
+  100% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--halfX), 0rem, var(--halfZ));
+    opacity: .1;
+  }
+}
+@keyframes position3_4 {
+  0% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--halfX), 0, var(--halfZ));
+    opacity: .1;
+  }
+  100% {
+    transform: perspective(var(--perspectiveBase)) translate3d(var(--TquarterX), 0rem, var(--TquarterZ));
+    opacity: .2;
+  }
+}
