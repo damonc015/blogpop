@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className={classes.container}>
       <div className={classes.nav}>
         <h1 className={classes.logo}>
-          <Link href="/">blog POP</Link>
+          <Link href="/">blogSprite</Link>
         </h1>
         <ul className={classes.listContainer}>
           <li className={classes.listItem}>

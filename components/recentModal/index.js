@@ -5,7 +5,7 @@ import ModalItem from "./ModalItem";
 
 const Modal = (props) => {
   const { allArticles } = props;
-  const [articles,food] = allArticles;
+  const [articles, food] = allArticles;
 
   const [positionStart, setPositionStart] = useState(0);
   const arrPositions = [
@@ -41,6 +41,7 @@ const Modal = (props) => {
       <Arrow direction="backwards" changePos={decreasePosition} />
       <div className={classes.modalItemsContainer}>
         {food.map((article, index) => {
+          if (index > 3) return;
           return (
             <ModalItem
               key={article.slug}

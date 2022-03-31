@@ -2,12 +2,10 @@
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  position: sticky;
-  top: 0;
-  grid-column: 9/11;
   padding-top: 15rem;
+  grid-column: 9/11;
   gap: 1rem;
   color: #912a21;
 }

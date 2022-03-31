@@ -8,22 +8,22 @@
   background-color: gainsboro;
   --transitionModal: 1s;
   --perspectiveBase: 2rem;
-  --itemW:90%;
-  --itemH:100%;
-  --startX:0rem;
-  --startZ:0rem;
-  --quarterX:-25rem;
-  --quarterZ:-.75rem;
+  --itemW: 90%;
+  --itemH: 100%;
+  --startX: 0rem;
+  --startZ: 0rem;
+  --quarterX: -25rem;
+  --quarterZ: -0.75rem;
   --halfX: 0rem;
-  --halfZ:-1.5rem;
-  --TquarterX:25rem;
-  --TquarterZ:-.75rem;
-  --modalItemColor:white;
-  --modalItemBorderRadius:10px;
+  --halfZ: -1.5rem;
+  --TquarterX: 25rem;
+  --TquarterZ: -0.75rem;
+  --modalItemColor: white;
+  --modalItemBorderRadius: 10px;
 }
 .modalItemsContainer {
   position: relative;
-  width: 60%;
+  width: 65%;
   height: 80%;
   display: flex;
   justify-content: center;
@@ -85,11 +85,13 @@
 
 @keyframes position0_4 {
   0% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--TquarterX), 0, var(--TquarterZ));
-    opacity: .2;
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--TquarterX), 0, var(--TquarterZ));
+    opacity: 0.2;
   }
   100% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--startX), 0rem, var(--startZ));
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--startX), 0rem, var(--startZ));
     opacity: 1;
   }
 }
@@ -99,27 +101,56 @@
     opacity: 1;
   }
   100% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--quarterX), 0rem, var(--quarterZ));
-    opacity: .2;
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--quarterX), 0rem, var(--quarterZ));
+    opacity: 0.2;
   }
 }
 @keyframes position2_4 {
   0% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--quarterX), 0, var(--quarterZ));
-    opacity: .2;
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--quarterX), 0, var(--quarterZ));
+    opacity: 0.2;
   }
   100% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--halfX), 0rem, var(--halfZ));
-    opacity: .1;
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--halfX), 0rem, var(--halfZ));
+    opacity: 0.1;
   }
 }
 @keyframes position3_4 {
   0% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--halfX), 0, var(--halfZ));
-    opacity: .1;
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--halfX), 0, var(--halfZ));
+    opacity: 0.1;
   }
   100% {
-    transform: perspective(var(--perspectiveBase)) translate3d(var(--TquarterX), 0rem, var(--TquarterZ));
-    opacity: .2;
+    transform: perspective(var(--perspectiveBase))
+      translate3d(var(--TquarterX), 0rem, var(--TquarterZ));
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: 1300px) {
+  .modalItemsContainer {
+    width: 75%;
+    height: 70%;
+  }
+}
+@media (max-width: 1050px) {
+  .modalItemsContainer {
+    height: 80%;
+    width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  .modalItemsContainer {
+    height: 80%;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .modalContainer {
+    display: none;
   }
 }

@@ -39,6 +39,6 @@ Although the chicken breast will definitely be juicy, I usually add a barbeque o
 With the supplement of Joseph's recipe, I am definitely an advocate of its revitalizing nutritional value. After eating a meal, it feels as if I have a ton of energy to get through my day. If I could change something about this recipe it would be the quinoa, as it was way more expensive than normal rice. But the total costs of this prep comes under 30 dollars for five meals and it took less than an hr and a half to make. This makes it hard not to remake it!
 
 #### Check out Joseph's recipe!
-Disclaimer: The original recipe I viewed is no longer available, however, Joesph has posted an updated recipe similar to the original.
+Disclaimer: The original recipe I viewed is no longer available, however, Joseph has posted an updated recipe similar to the original.
 #### [https://www.tiktok.com/@thejosephabell/video/7056586309296590126?is_copy_url=1&is_from_webapp=v1](https://www.tiktok.com/@thejosephabell/video/7056586309296590126?is_copy_url=1&is_from_webapp=v1)
 [![Recipe](/images/food/mealPrepVideo.png)](https://www.tiktok.com/@thejosephabell/video/7056586309296590126?is_copy_url=1&is_from_webapp=v1 "Video")

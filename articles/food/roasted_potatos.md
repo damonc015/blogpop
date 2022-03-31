@@ -1,12 +1,12 @@
 ---
 category: "Food"
-filename: "roasted_potatos"
+filename: "roasted_potatoes"
 title: "Roasted Potatos"
 image: "potatoes.jpg"
 snippet: "Start by preparing an ice bath for the potatoes. Wash and dice the potatoes before putting it into the bath. The recipe used baby potatoes but I went with russet potatoes so I could dice them into bite size chunks as opposed to eating the baby potato sliced in half. I was not sure if baby potatoes needed to be soaked but for normal potatoes bathing them in ice water for 25-30 min removes a lot of extra starch on the potatoes allowing them to be more crisp when baked. I decided not to skin the potatoes because the skin can get nice and crunchy when baked. After the bath, remove the diced potatoes and pat them dry so any seasoning sticks on better and so they will crisp when cooked."
 date: "October 14, 2021"
 readTime: "2"
-tags: "potatoes, garlic, rpasted, rosemary, appetizer"
+tags: "potatoes, garlic, roasted, rosemary, appetizer"
 ---
 
 #### Overview
