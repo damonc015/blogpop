@@ -2,7 +2,7 @@
 category: "Food"
 filename: "taiwanese_popcorn_chicken"
 title: "Taiwanese Popcorn Chicken"
-image: "popcornChicken.png"
+image: "popChickenDisplay.jpg"
 snippet: "My preferred way of making this refreshing appetizer!"
 date: "February 14, 2022"
 # ctrl shift v for preview
@@ -10,7 +10,7 @@ date: "February 14, 2022"
 ### Overview
  Cucumber salad is a versatile appetizer that can be prepared any number of ways. Asian cucumber salad is often made with soy sauce and seasame oil. However, even an Asian cucumber salad has many variations in spice, cut, and overall preparation. Attempting numerous versions of the Asian cucumber salad, I finally settled on my personal favorite recipe. 
 
-![Cucumber](/images/food/cucumber.png)
+![Popcorn Chicken](/images/food/popChickenDisplay.jpg)
 
 ### Ingredients
 - 1 cucumber
@@ -36,5 +36,4 @@ And that's it! I refrigerate the cucumbers for atleast 30 min before serving as 
 
 
 ### Check out the original recipe!
-#### [https://www.youtube.com/watch?v=JowrusydbKM](https://www.youtube.com/watch?v=JowrusydbKM "Video")
-[![Recipe](/images/food/cucumberVideo.png)](https://www.youtube.com/watch?v=JowrusydbKM "Video")
+#### [https://cooking.nytimes.com/recipes/1021582-taiwanese-popcorn-chicken-with-fried-basil](https://cooking.nytimes.com/recipes/1021582-taiwanese-popcorn-chicken-with-fried-basil)

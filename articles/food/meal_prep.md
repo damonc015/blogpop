@@ -2,7 +2,7 @@
 category: "Food"
 filename: "meal_prep"
 title: "Meal Prep"
-image: "mealPrep.png"
+image: "mealprepDisplay.jpg"
 snippet: "Getting into meal prep can be a daunting task given the various options. It becomes a struggle of balancing nutritional value and the price of ingredients, cooking time, and making sure it is flavorful enough to eat for a week straight. I normally bake a pack of chicken breasts and combine it with a bowl of rice and vegetables. While this was inexpensive and only took 40 minutes, I wanted to up my meal prep game and have it be less bland and add ingredients to make my prep even more nutritious."
 date: "June 13, 2021"
 readTime: "2.7"
@@ -13,7 +13,7 @@ tags: "meal prep, protein, chicken breast, food"
  
  Getting into meal prep can be a daunting task given the various options. It becomes a struggle of balancing nutritional value and the price of ingredients, cooking time, and making sure it is flavorful enough to eat for a week straight. I normally bake a pack of chicken breasts and combine it with a bowl of rice and vegetables. While this was inexpensive and only took 40 minutes, I wanted to up my meal prep game and have it be less bland and add ingredients to make my prep even more nutritious. That is when I stumbled upon Joseph Abell's meal prep recipe. It guaranteed feeling energized by the nutrients it provided, so I decided to give it a go. 
 
-![Cucumber](/images/food/mealPrep.png)
+![Cucumber](/images/food/mealprepDisplay.jpg)
 
 #### Ingredients
 - 4 lbs chicken breast (optional)

@@ -37,4 +37,4 @@ After taking the potatoes out of the oven, I melted about a tablespoon of butter
 
 #### Check out the original recipe!
 
-#### [https://www.delish.com/cooking/recipe-ideas/recipes/a50803/rosemary-roasted-potatoes-recipe/](https://www.delish.com/cooking/recipe-ideas/recipes/a50803/rosemary-roasted-potatoes-recipe/ "Video")
+#### [https://www.delish.com/cooking/recipe-ideas/recipes/a50803/rosemary-roasted-potatoes-recipe/](https://www.delish.com/cooking/recipe-ideas/recipes/a50803/rosemary-roasted-potatoes-recipe/)
