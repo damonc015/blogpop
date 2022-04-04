@@ -58,7 +58,7 @@ const ModalItem = (props) => {
           />
         </div>
         <div className={classes.contentContainer}>
-          <span>
+          <span className={classes.contentHead}>
             <h2>{data.title}</h2>
             <p className={classes.date}>{data.date}</p>
             <p style={{ fontSize: ".85rem" }}>
@@ -70,13 +70,9 @@ const ModalItem = (props) => {
             <span className={classes.readmore}>...read more</span>
           </span>
           <span className={classes.bubble} style={color(data.category)}>
-            <Link href={`/${data.category.toLowerCase()}`}>
-              {data.category}
-            </Link>
+            {data.category}
           </span>
-          <p style={{ fontStyle: "italic", fontSize: ".9rem" }}>
-            tags: {data.tags}
-          </p>
+          <p className={classes.tags}>tags: {data.tags}</p>
         </div>
       </div>
     </Fragment>

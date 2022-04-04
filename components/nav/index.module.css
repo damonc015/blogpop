@@ -41,16 +41,19 @@
 }
 
 @media (max-width: 550px) {
-  .container{
-    font-size: .9rem;
+  .container {
+    font-size: 0.9rem;
   }
-  .nav{
+  .nav {
     width: 80vw;
   }
-  .logo{
+  .logo {
     font-size: 1.1rem;
   }
-  .listContainer{
+  .listContainer {
+    padding: 0 0.5rem;
+  }
+  .listItem {
     padding: 0 .5rem;
   }
 }

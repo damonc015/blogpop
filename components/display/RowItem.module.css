@@ -63,7 +63,7 @@
 @media (max-width: 1000px) {
   .rowItem:hover .rowItemSnippet {
     height: 0;
-    overflow: hidden
+    overflow: hidden;
   }
 }
 @media (max-width: 700px) {
@@ -74,7 +74,13 @@
     height: auto;
     overflow: visible;
   }
+  .rowItemTitle{
+    font-size: 1.1rem;
+  }
 }
-
-
-
+@media (max-width: 500px) {
+  .rowItem:hover .rowItemSnippet {
+    height: 0;
+    overflow: hidden;
+  }
+}
