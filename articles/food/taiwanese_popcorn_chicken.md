@@ -3,36 +3,39 @@ category: "Food"
 filename: "taiwanese_popcorn_chicken"
 title: "Taiwanese Popcorn Chicken"
 image: "popChickenDisplay.jpg"
-snippet: "My preferred way of making this refreshing appetizer!"
+snippet: "Taiwanese popcorn chicken is a delicious appetizer, snack, or even protein. Served as inexpensive street food at night markets in Taiwan, the crispy and savory delicacy is often served as a pricey appetizer in America. After purchasing overpriced Taiwanese popcorn chicken multiple times, I finally decided enough was enough and attempted to make my own. I cooked the NY Times recipe more than a handful of times and this was my experience."
 date: "February 14, 2022"
-# ctrl shift v for preview
+readTime: "2.8"
+tags: "popcorn chicken, snack, appetizer, Asian"
 ---
 ### Overview
- Cucumber salad is a versatile appetizer that can be prepared any number of ways. Asian cucumber salad is often made with soy sauce and seasame oil. However, even an Asian cucumber salad has many variations in spice, cut, and overall preparation. Attempting numerous versions of the Asian cucumber salad, I finally settled on my personal favorite recipe. 
+
+Taiwanese popcorn chicken is a delicious appetizer, snack, or even protein. Served as inexpensive street food at night markets in Taiwan, the crispy and savory delicacy is often served as a pricey appetizer in America. After purchasing overpriced Taiwanese popcorn chicken multiple times, I finally decided enough was enough and attempted to make my own. I cooked the NY Times recipe more than a handful of times and this was my experience.
 
 ![Popcorn Chicken](/images/food/popChickenDisplay.jpg)
 
 ### Ingredients
-- 1 cucumber
-- 1 green onion
-- 1 minced clove of garlic
-- 2 tbsp vegetable oil
-- 1/2 tbsp soy sauce
-- 1/2 tbsp vinegar
-- 1 tsp chili flakes
-- 1 tsp sugar
-- 1/2 tsp sesame seeds
-- 1/2 tsp salt
-- optional sesame oil
+- 2 lbs boneless chicken thighs or breast
+- 2 tbsp soy sauce
+- 3 tsp sugar
+- 2 tsp Chinese five-spice powder
+- 2 tbsp pepper
+- 1 1/2 tsp salt
+- vegetable oil
+- cornstarch
+- 1 tbsp lemon juice
+- 1 tsp basil leaves
+- a sprinkle of garlic powder
+- 1 tsp of chili powder
 
 ### My Experience
-The recipe I used was from the Youtube channel Palden's Kitchen. Like many other recipes I had tried before it, this recipe prepares the cucumbers by peeling part of the cucumber skin and cutting it into pieces. Personally, I found that I enjoyed the texture of the skin and left it on. I had found some recipes excluded smacking the cucumber with the flat side of your cleaver. This is suppose to help your cucumbers absorb the flavors later; so I decided why not give it a few smacks. I preferred how this recipe did not cut the cucumber into slices but rather into chunks. I enjoyed eating the chunks more so than the slices as the pieces were thicker and juicier than their counterparts (and also much easier to slice evenly).
+Although the recipe uses chicken thigh, the first few times I cooked this recipe I used chicken breast instead of thigh. Chicken breast is leaner as it is white meat while thigh is juicier as it is dark meat. I prefer using breast as I can buy more for the same price I purchased the thighs for and I hardly noticed a difference when eating the thighs. 
 
-Cucumbers are naturally full of water so it is important to salt them and let them sit for a few minutes otherwise the water content will distill the added flavors. Compared to other recipes, this recipe only has them sit for ten minutes but I found there still to be a lot of water. I added a full teaspoon of salt rather than a half and had them sit for half an hour. 
+Dry and cut your choice of thigh or breast into bite-size pieces before marinating them with soy sauce, Chinese five-spice powder, and salt for 30 min. The recipe uses 4 tsp of salt but that is beyond excessive. The first time I used that much salt, the entire dish only tasted like salt so I am presuming it was a mistake on the original recipe. Even half that amount of salt was too much, so I used 1 1/2 tsp as opposed to 4. 
 
-The absolute pinnacle of this recipe is how the rest of the ingredients are prepared. In other recipes, green onions are not always included and the garlic is almost always added raw. This recipe has vegetable oil brought to a boil and then poured out onto the bowl of garlic, sesame seeds, chili flakes, and green onions. This cooks all four components and brings out more flavor and aroma. The soy sauce and vinegar are then poured in once the mixture has finished cooking. While the sesame oil is drizzled at the end as a top off, I added a tbsp of sesame oil to the mixture. In other recipes, sesame oil was a major ingredient and I adapted that here. 
+As the chicken finishes marinating, fill up a pot with vegetable oil deep enough to cover the chicken pieces and heat the oil to 350 degrees. When the chicken is done marinating coat them in cornstarch before putting them in the oil for 5 min. (In one attempt at this recipe, I tried coating the chicken in egg yolk to allow the cornstarch to stick better but found that the texture of Taiwanese popcorn chicken needs the cornstarch to only stick on parts of the chicken. If the cornstarch stuck on the entirety of the chicken, rather than getting bubbles of fried batter, the chicken would just have large clumps of fried batter.) Let the chicken rest for 2-3 minutes before putting them back in the oil. This second fry ensures a crispier finish as I had learned from a different recipe. 
 
-And that's it! I refrigerate the cucumbers for atleast 30 min before serving as I do think they taste better cold but it is all personal preference!
+The original recipe tops off the chicken with pepper and salt but I did not add any more salt. Instead, I added some pepper, squeezed lemon juice onto them, and topped them off with basil, garlic powder, and chili powder. I found that using just pepper and salt was a little bland. Adding the lemon juice, garlic powder, and chili powder gave it some zest and spice. The basil was used as garnish but also bolsters digestion. You can eat it as is but I sometimes lightly dip them in spicy mayo. Aside from a few changes, this recipe lays the foundation for making some amazing Taiwanese popcorn chicken and I don't see myself purchasing them outside again.
 
 
 ### Check out the original recipe!

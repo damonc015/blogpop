@@ -7,7 +7,7 @@ snippet: "Sigeumchi Namul, otherwise known as 'Spinach Banchan', is a Korean sid
 The dish combines blanched spinach with garlic, soy sauce, sesame oil, sugar, and black pepper to transform an otherwise plain vegetable dish into a mouthful of flavor."
 date: "September 12, 2021"
 readTime: "3.3"
-tags: "cucumber, asian, salad, appetizer" 
+tags: "cucumber, Asian, salad, appetizer" 
 ---
 #### Overview
  Sigeumchi Namul, otherwise known as 'Spinach Banchan', is a Korean side dish that has quickly become one of my favorite vegetable appetizers.
@@ -28,7 +28,7 @@ The recipe I used was from Tiktok user sarchetrit and I found the recipe to be e
 
 The whole bag of spinach is blanched for less than a minute before rinsing in cold water to stop the spinach from cooking any further and retain the vegetable's nutrients. Although it may seem like a lot, the spinach will shrink to a portion fit for 4 people.
 
-The most difficult part of this recipe is wringing the spinach dry. Don't be afraid to get your hands all over that spinach and drain it of all the water. Then when you think you've got most of the water out, wring it again because it just has so much water absorbed! While this step does strain the forearms, it prevents the flavor of the garlic, soy sauce, sesame oil, sugar, and black pepper from being watered down. I learned a way around this is to lightly salt the spinach after boiling it and let the salt absorb some water. But if time is of the essence, then wring like your life depends on it!
+The most difficult part of this recipe is wringing the spinach dry. Don't be afraid to get your hands all over that spinach and drain it of all the water. Then when you think you've got most of the water out, wring it again because it just has so much water absorbed! While this step does strain the forearms, it prevents the flavor of the garlic, soy sauce, sesame oil, sugar, and black pepper from being watered down. I learned a way around this is to lightly salt the spinach after boiling it and let the salt absorb some water. But if time is of the essence, then wring as your life depends on it!
 
 Once you're satisfied with how much water is left in the spinach, put the spinach in a mixing bowl and add the soy sauce, sesame oil, minced garlic, sugar, and black pepper. My spinach was nowhere as near as aesthetic as the spinach in the video and I had a ball of spinach that formed from wringing. I decided to separate the ball with a spoon before mixing it with the rest of the ingredients.
 

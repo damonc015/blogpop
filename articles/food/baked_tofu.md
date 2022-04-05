@@ -3,15 +3,15 @@ category: "Food"
 filename: "baked_tofu"
 title: "Baked Tofu"
 image: "tofuDisplay.JPG"
-snippet: "As I was grocery shopping the other day, I wanted to try to make a dish using an ingredient I haven't used before. Low and behold I stumbled upon tofu which was extremely cheap. I wanted to create something without the help of a recipe this time and settled on baking the tofu and creating a thick, spicy, and umami sauce to glaze them. "
+snippet: "As I was grocery shopping the other day, I wanted to try to make a dish using an ingredient I haven't used before. Low and behold I stumbled upon tofu, an extremely cheap protein. I wanted to create something without the help of a recipe this time and settled on baking the tofu and creating a thick, spicy, and umami sauce to glaze them. "
 date: "December 6, 2021"
-readTime: "3.5"
+readTime: "2.6"
 tags: "tofu, asian, crispy tofu, protein"
 ---
 
 #### Overview
 
-As I was grocery shopping the other day, I wanted to try to make a dish using an ingredient I haven't used before. Low and behold I stumbled upon tofu which was extremely cheap. I wanted to create something without the help of a recipe this time and settled on baking the tofu and creating a thick, spicy, and umami sauce to glaze them. 
+As I was grocery shopping the other day, I wanted to try to make a dish using an ingredient I haven't used before. Low and behold I stumbled upon tofu, an extremely cheap protein. I wanted to create something without the help of a recipe this time and settled on baking the tofu and creating a thick, spicy, and umami sauce to glaze them. 
 
 #### ![tofu](/images/food/tofuDisplay.JPG)
 
@@ -24,19 +24,26 @@ As I was grocery shopping the other day, I wanted to try to make a dish using an
 - cornstarch
 - chili oil
 - 2 tbsp oyster sauce
+- 1 tbsp chili garlic paste
 - 1 tbsp red chili flakes
-- 1 tbsp siracha
+- 1 tbsp sriracha
 - 1 tsp sugar
 - 1 tsp sesame seeds
 - 1/2 tsp salt
+- 3/4 cup of water
 
 #### The Process
 
-I wanted the tofu to be slightly crisp and in order to do that I knew the firmer the tofu the better. Drain your package of tofu when first opening and proceed to dice the chunk into bite sized pieces. 
+I wanted the tofu to be slightly crisp and to do that, I knew the firmer the tofu the better. Drain your package of tofu when first opening and proceed to dice the chunk into bite-size pieces. Tofu has an excessive amount of water so after slicing into bite-size chunks dry them again individually. I sprinkled a pinch of salt on the chunks to let them dry and had them sit in a bowl for 10 minutes.
 
-Cucumbers are naturally full of water so it is important to salt them and let them sit for a few minutes otherwise the water content will distill the added flavors. Compared to other recipes, this recipe only has them sit for ten minutes but I found there still to be a lot of water. I added a full teaspoon of salt rather than a half and had them sit for half an hour.
+After 10 min., drain the bowl and add 1 tbsp soy sauce, 1 tbsp sesame oil, and 1 tsp sugar, making sure every chunk gets coated. Then, I individually coated the chunks in a layer of cornstarch and laid them on a baking tray. Bake the tofu at 400 degrees for 35 min., flipping them over 17-18 min. in.
 
-The absolute pinnacle of this recipe is how the rest of the ingredients are prepared. In other recipes, green onions are not always included and the garlic is almost always added raw. This recipe has vegetable oil brought to a boil and then poured out onto the bowl of garlic, sesame seeds, chili flakes, and green onions. This cooks all four components and brings out more flavor and aroma. The soy sauce and vinegar are then poured in once the mixture has finished cooking. While the sesame oil is drizzled at the end as a top-off, I added a tbsp of sesame oil to the mixture. In other recipes, sesame oil was a major ingredient and I adapted that here.
+While the tofu is baking, heat a saucepan on low heat. Add oyster sauce, 1 tbsp soy sauce, chili garlic paste, red chili flakes, sriracha, sugar, sesame seeds, salt, 2 tsp of sugar, and water to the saucepan as it gets hot. Mix the ingredients and stir occasionally as the heat reduces the mixture into a sauce. When the mixture thickens, shut the heat off and leave the sauce for later.
 
-And that's it! I refrigerate the cucumbers for at least 30 min before serving as I do think they taste better cold but it is all personal preference!
+When the tofu is done baking, pull them out and put them in the saucepan. Mix the tofu around so they get coated with the sauce, and they are ready to be served. 
+
+The inspiration for the sauce came from reducing the sauce for penne alla vodka and hot pot sauce ingredients. I reduced the ingredients I use for my hot pot sauce to create a thick sauce to glaze my tofu. The recipe turned out well but is on the spicy side. Even after draining multiple times I found out I had not drained enough of the water so if I were to make this dish again, I would let the tofu dry for longer. Other than that, I am proud of how this dish came out!
+
+
+
 

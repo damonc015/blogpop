@@ -3,15 +3,15 @@ category: "Food"
 filename: "asian_cucumber_salad"
 title: "Asian Cucumber Salad"
 image: "cucumber.png"
-snippet: "Cucumber salad is a versatile appetizer that can be prepared any number of ways. Asian cucumber salad is often made with soy sauce and seasame oil. However, even an Asian cucumber salad has many variations in spice, cut, and overall preparation."
+snippet: "Cucumber salad is a versatile appetizer that can be prepared in any number of ways. Asian cucumber salad is often made with soy sauce and sesame oil. However, even an Asian cucumber salad has many variations in spice, cut, and overall preparation."
 date: "January 15, 2022"
 readTime: "3.5"
-tags: "cucumber, asian, salad, appetizer"
+tags: "cucumber, Asian, salad, appetizer"
 ---
 
 #### Overview
 
-Cucumber salad is a versatile appetizer that can be prepared any number of ways. Asian cucumber salad is often made with soy sauce and seasame oil. However, even an Asian cucumber salad has many variations in spice, cut, and overall preparation. Attempting numerous versions of the Asian cucumber salad, I finally settled on my personal favorite recipe.
+Cucumber salad is a versatile appetizer that can be prepared in any number of ways. Asian cucumber salad is often made with soy sauce and sesame oil. However, even an Asian cucumber salad has many variations in spice, cut, and overall preparation. Attempting numerous versions of the Asian cucumber salad, I finally settled on a personal favorite recipe.
 
 #### ![Cucumber](/images/food/cucumberImage.JPG)
 
