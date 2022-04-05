@@ -124,16 +124,16 @@ export async function getStaticProps(context) {
       return item;
     });
   }
-  if (related.length < 3) {
-    let x = 3 - related.length;
-    for (let i = 0; i < x; i++) {
-      related.push(readArticles(foodArt)[i]);
-      // let y = Math.floor(Math.random()*3)
-      // if (y === 0 ) return related.push(tech[i]);
-      // if (y === 1) return related.push(food[i]);
-      // if (y === 2) return related.push(lifestyle[i]);
-    }
-  }
+  // if (related.length < 3) {
+  //   let x = 3 - related.length;
+  //   for (let i = 0; i < x; i++) {
+  //     related.push(readArticles(foodArt)[i]);
+  //     // let y = Math.floor(Math.random()*3)
+  //     // if (y === 0 ) return related.push(tech[i]);
+  //     // if (y === 1) return related.push(food[i]);
+  //     // if (y === 2) return related.push(lifestyle[i]);
+  //   }
+  // }
   return {
     props: {
       pageId,

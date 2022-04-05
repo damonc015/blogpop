@@ -1,7 +1,7 @@
 ---
 category: "Tech"
-filename: "this_keyword"
-title: "The this keyword in JS"
+filename: "stock_alerter"
+title: "Stock Alerter"
 image: "thisKeyword.png"
 snippet: ""
 date: "2"
