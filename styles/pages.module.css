@@ -73,13 +73,22 @@
   color: #912a21;
 }
 .article h2 {
+  font-family: 'Roboto Slab', serif;
   font-size: 2rem;
   height: auto;
   line-height: 2.2rem;
   margin-block-end: 0.3em;
 }
+.article h4{
+  font-family: 'Overlock', cursive;
+  font-size: 1.25rem;
+}
 .article p {
   text-indent: 1rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.article li{
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .article a {
   text-decoration: underline;

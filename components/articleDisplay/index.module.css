@@ -12,7 +12,9 @@
 .relatedTitle {
   border-bottom: 2.5px solid black;
   text-transform: uppercase;
-  font-family: "Fuzzy Bubbles", cursive;
+  font-family: 'Overlock', cursive;
+  letter-spacing: .05rem;
+  text-align: center;
   padding-bottom: 0.2rem;
   width: 100%;
 }
