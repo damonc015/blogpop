@@ -51,11 +51,9 @@ const Article = (props) => {
     },
     code(code) {
       return (
-        <SyntaxHighlighter
-          language={"jsx"}
-          style={atomDark}
-          children={code.children}
-        />
+        <SyntaxHighlighter language={"jsx"} style={atomDark}>
+          {code.children}
+        </SyntaxHighlighter>
       );
     },
   };

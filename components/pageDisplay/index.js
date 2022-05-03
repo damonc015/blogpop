@@ -10,7 +10,7 @@ const PageItem = (props) => {
 
   return (
     <Fragment>
-      <Link href={`/${category.toLowerCase()}/${filename}`}>
+      <Link href={`/${category.toLowerCase()}/${filename}`} passHref>
         <div className={classes.articleContainer}>
           <div className={classes.imageContainer}>
             <Image
