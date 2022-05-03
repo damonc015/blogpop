@@ -13,24 +13,29 @@ import {
 import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 import Head from "next/head";
+import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
+import atomDark from "react-syntax-highlighter/dist/cjs/styles/prism/atom-dark";
+import jsx from "react-syntax-highlighter/dist/cjs/languages/prism/jsx";
+SyntaxHighlighter.registerLanguage("jsx", jsx);
 
 const Article = (props) => {
   const { pageId, related, article } = props;
-  if (!article) return (
-    <div>
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="description" content={article.snippet} />
-        <meta name="keywords" content={article.tags} />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-        <link rel="icon" href="/favicon.ico" />
-        <title>{article.title}</title>
-      </Head>
-    </div>
-  );
+  if (!article)
+    return (
+      <div>
+        <Head>
+          <meta charSet="UTF-8" />
+          <meta name="description" content={article.snippet} />
+          <meta name="keywords" content={article.tags} />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          ></meta>
+          <link rel="icon" href="/favicon.ico" />
+          <title>{article.title}</title>
+        </Head>
+      </div>
+    );
   const renderConfig = {
     img(image) {
       return (
@@ -42,6 +47,15 @@ const Article = (props) => {
             objectFit="contain"
           />
         </div>
+      );
+    },
+    code(code) {
+      return (
+        <SyntaxHighlighter
+          language={"jsx"}
+          style={atomDark}
+          children={code.children}
+        />
       );
     },
   };
