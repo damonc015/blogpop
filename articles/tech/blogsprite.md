@@ -1,42 +1,44 @@
 ---
 category: "Tech"
-filename: "taiwanese_popcorn_chicken"
+filename: "blogsprite"
 title: "Blogsprite"
 image: "blogPreview.png"
-snippet: "Taiwanese popcorn chicken is a delicious appetizer, snack, or even protein. Served as inexpensive street food at night markets in Taiwan, the crispy and savory delicacy is often served as a pricey appetizer in America. After purchasing overpriced Taiwanese popcorn chicken multiple times, I finally decided enough was enough and attempted to make my own. I cooked the NY Times recipe more than a handful of times and this was my experience."
-date: "February 14, 2022"
-readTime: "2.8"
-tags: "popcorn chicken, snack, appetizer, Asian"
+snippet: "The process of creating my portfolio. My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site."
+date: "March 30, 2022"
+readTime: "5.3"
+tags: "blog, next, markdown"
 ---
-### Overview
 
-Taiwanese popcorn chicken is a delicious appetizer, snack, or even protein. Served as inexpensive street food at night markets in Taiwan, the crispy and savory delicacy is often served as a pricey appetizer in America. After purchasing overpriced Taiwanese popcorn chicken multiple times, I finally decided enough was enough and attempted to make my own. I cooked the NY Times recipe more than a handful of times and this was my experience.
+#### ![Portfolio](/images/tech/portPreview.png)
 
-![Blogsprite](/images/tech/blogPreview.png)
+### Goal
 
-### Ingredients
-- 2 lbs boneless chicken thighs or breast
-- 2 tbsp soy sauce
-- 3 tsp sugar
-- 2 tsp Chinese five-spice powder
-- 2 tbsp pepper
-- 1 1/2 tsp salt
-- vegetable oil
-- cornstarch
-- 1 tbsp lemon juice
-- 1 tsp basil leaves
-- a sprinkle of garlic powder
-- 1 tsp of chili powder
+My intended goal with this project was to create a site to explain the thought process behind my projects, share recipes I try, and talk about interesting lifestyle habits I discover. I wanted to create a ecommerce site layout utilizing NextJS. I always wanted to try an ecommerce layout but never found it appropriate for other projects. And while I could have created a project to do so, I struggled to find content to fill those pages. With a personal blog, I would be creating the content and could organize it any which way I chose, making this the perfect project to try my hand at this design.
 
-### My Experience
-Although the recipe uses chicken thigh, the first few times I cooked this recipe I used chicken breast instead of thigh. Chicken breast is leaner as it is white meat while thigh is juicier as it is dark meat. I prefer using breast as I can buy more for the same price I purchased the thighs for and I hardly noticed a difference when eating the thighs. 
+### Process
 
-Dry and cut your choice of thigh or breast into bite-size pieces before marinating them with soy sauce, Chinese five-spice powder, and salt for 30 min. The recipe uses 4 tsp of salt but that is beyond excessive. The first time I used that much salt, the entire dish only tasted like salt so I am presuming it was a mistake on the original recipe. Even half that amount of salt was too much, so I used 1 1/2 tsp as opposed to 4. 
+I had the idea before I started, a large carousel that was the center of attention. It would rotate with highlighted articles and 
 
-As the chicken finishes marinating, fill up a pot with vegetable oil deep enough to cover the chicken pieces and heat the oil to 350 degrees. When the chicken is done marinating coat them in cornstarch before putting them in the oil for 5 min. (In one attempt at this recipe, I tried coating the chicken in egg yolk to allow the cornstarch to stick better but found that the texture of Taiwanese popcorn chicken needs the cornstarch to only stick on parts of the chicken. If the cornstarch stuck on the entirety of the chicken, rather than getting bubbles of fried batter, the chicken would just have large clumps of fried batter.) Let the chicken rest for 2-3 minutes before putting them back in the oil. This second fry ensures a crispier finish as I had learned from a different recipe. 
+### Difficulties
 
-The original recipe tops off the chicken with pepper and salt but I did not add any more salt. Instead, I added some pepper, squeezed lemon juice onto them, and topped them off with basil, garlic powder, and chili powder. I found that using just pepper and salt was a little bland. Adding the lemon juice, garlic powder, and chili powder gave it some zest and spice. The basil was used as garnish but also bolsters digestion. You can eat it as is but I sometimes lightly dip them in spicy mayo. Aside from a few changes, this recipe lays the foundation for making some amazing Taiwanese popcorn chicken and I don't see myself purchasing them outside again.
+I think what I struggled with the most was the creative aspect of the page. It took me a lot longer to come up with an entire theme, palette, and design as I wanted it to be unlike a traditional website. Another thing I struggled with was working with SVGs and understanding how their viewboxes operated. I had few technological difficulties with creating my portfolio. Creating a portfolio is a representation of the accumulated skills one has garnered after completing their projects. That was evident as every time I stumbled, I realized I had encountered a similar problem in the past. An example is when the Intersection Observer would trigger on every element so skipping around the site would have it trigger every element. I had created a site in the past that was also intended to be skipped around and to avoid having the observer trigger I would add a delay. Only when the page was settled on an element for a certain amount of time was the observer triggered. I simply translated this solution to React to resolve my issue.
 
+```jsx
+useEffect(() => {
+  if (!inView) return;
+  lastTimeout.current = setTimeout(() => {
+    setActiveIcon("contact");
+  }, 1000);
+  return () => {
+    clearTimeout(lastTimeout.current);
+  };
+}, [inView]);
+```
 
-### Check out the original recipe!
-#### [https://cooking.nytimes.com/recipes/1021582-taiwanese-popcorn-chicken-with-fried-basil](https://cooking.nytimes.com/recipes/1021582-taiwanese-popcorn-chicken-with-fried-basil)
+### What I Learned
+
+There were many "first timers" in this project. Though I had heard of GSAP and the Intersection Observer before, this was my first time using both of them. I thought GSAP was a phenomenal animation library and I thought the Intersection Observer was also incredibly useful. I learned how SVGs worked, animated SVG paths, and created my own for the first time in Figma. I also used EmailJS for the first time. This project enabled me to add many new tools to my repertoire.
+
+### Concluding Thoughts
+
+While I strived to make every page different in arrangement, I think if I came back to this project I could turn it into something greater. Overall though, I am proud that it does convey the interactive experience I had intended and I think the centerpiece for the home page was a great success.
