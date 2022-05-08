@@ -17,7 +17,7 @@ My intended goal with this project was to create a site to explain the thought p
 
 ### Process
 
-I had the idea before I started, a large carousel that was the center of attention. It would rotate with highlighted articles and 
+To start I wanted a large center 
 
 ### Difficulties
 
