@@ -4,7 +4,7 @@ filename: "baked_tofu"
 title: "Baked Tofu"
 image: "tofuDisplay.JPG"
 snippet: "As I was grocery shopping the other day, I wanted to try to make a dish using an ingredient I haven't used before. Low and behold I stumbled upon tofu, an extremely cheap protein. I wanted to create something without the help of a recipe this time and settled on baking the tofu and creating a thick, spicy, and umami sauce to glaze them. "
-date: "December 6, 2021"
+date: "April 6, 2022"
 readTime: "2.6"
 tags: "tofu, asian, crispy tofu, protein"
 ---

@@ -43,8 +43,9 @@
   margin-block-start: 0;
   margin-block-end: 0;
   overflow: hidden;
-  font-family: "Fuzzy Bubbles", cursive;
-  text-align: justify;
+  font-family: Hind Guntur,sans-serif;
+  text-align: center;
+  font-style: italic;
   font-weight: 500;
   height: 0;
   transition: all 0.5s ease-out;

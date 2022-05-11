@@ -4,7 +4,7 @@ filename: "meal_prep"
 title: "Meal Prep"
 image: "mealprepDisplay.jpg"
 snippet: "Getting into meal prep can be a daunting task given the various options. It becomes a struggle of balancing nutritional value and the price of ingredients, cooking time, and making sure it is flavorful enough to eat for a week straight. I normally bake a pack of chicken breasts and combine it with a bowl of rice and vegetables. While this was inexpensive and only took 40 minutes, I wanted to up my meal prep game and have it be less bland and add ingredients to make my prep even more nutritious."
-date: "June 13, 2021"
+date: "March 10, 2022"
 readTime: "2.7"
 tags: "meal prep, protein, chicken breast, food"
 ---

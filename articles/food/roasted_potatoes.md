@@ -4,7 +4,7 @@ filename: "roasted_potatoes"
 title: "Roasted Potatoes"
 image: "potatoes.jpg"
 snippet: "Recently I decided to make a juicy medium-rare steak and what better to go with the meat than a side of roasted potatoes. Simple, quick, and cost-effective, roasted potatoes are a staple side dish for any steak. I used Delish's recipe for rosemary roasted potatoes but felt it was missing a step or two. This is my take on rosemary roasted potatoes."
-date: "October 14, 2021"
+date: "April 1, 2022"
 readTime: "2"
 tags: "potatoes, garlic, roasted, rosemary, appetizer"
 ---

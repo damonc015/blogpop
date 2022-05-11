@@ -1,35 +1,27 @@
 ---
 category: "Tech"
 filename: "pickabite"
-title: "Portfolio"
-image: "portPreview.png"
-snippet: "The process of creating my portfolio. My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site."
-date: "May 3, 2022"
+title: "Pick a Bite"
+image: "gmapsPreview.png"
+snippet: "The process of creating an application utilizing the Google Maps API. My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site."
+date: "March 3, 2022"
 readTime: "5.3"
-tags: "portfolio, gsap, intersection observer"
+tags: "Google Maps API, SwiperJS, Google Maps, Pick a Bite, food, restaurants"
 ---
 
-#### ![Portfolio](/images/tech/portPreview.png)
+#### ![Gmaps](/images/tech/gmapsPreview.png)
 
 ### Goal
 
-My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site.
+When coming up with personal project ideas, I wanted to create projects that I was passionate about. Early on I had decided to create a food application as one of my interest is trying out new recipes. Another thing I wanted to accomplish was implementing a document heavy API. The first one that came to mind was the Google Maps API. A few months ago I had taken a look at the documentation and I honestly had no idea where to begin compared to other APIs I was using at the time. Often I would just make a fetch request and all the information would be received as an object. But Google's APIs were different. They required setup, they required research, and they required deciphering. This time around I was up for the challenge. With this application I wanted to find restaurants in an area. I wanted to create an application to solve indecision when it came to picking out food. I envisioned being hungry and having my meal be chosen from options on a scratch card. And with that idea in mind, I opened the API docs to begin.
 
 ### Process
 
-As I looked into ThreeJS, the ideas I had in mind slowly dissipated as the realization dawned on me that using ThreeJS was more than picking up a library. I would need custom models for my ideas which would require learning the basics of 3D modeling. I decided on setting my prospects for a ThreeJS based portfolio aside for the time being and instead focus on creating an interactive experience with animation libraries like GSAP instead. I started by creating the sections of my page and was going to use snap align in CSS to make it so users had to focus on a section of the page. But as I tested it, I felt snap align was clunky and I wanted users to have the freedom to scroll and land in between the pages.
+The first thing I wanted to do was bring up the map from the API. Up until this point I used simple APIs to grab sets of data. Make a fetch request and an object with all the data would return. Immediately, I noticed that Google had multiple APIs that returned countless options depending on the query. Unlike other APIs I had to sift through the mass amount of documentation to find which APIs I needed. Even the Google Maps API was an umbrella concept for smaller APIs within it. Eventually I managed to find what I needed, the Places API, the Maps API, and the Geocoding API. The Maps API was to be able to use the functionalities of the Google map including the zoom, the template, and controls. The Geocoding API would be used to convert between latitudes and longitudes found on the map into the actual address. This address would then be used with the Places API to get details on the location.
 
-As I learned GSAP, the social icons were the first thing I animated with GSAP. After I created the showcase and contact page. The content for the showcase page was filled by my projects and the contact page only included a form so there was limited room for me to apply something creative. I applied a few animations but other than that they were left alone.
+Once I was able to render the map and autocomplete search from Google onto the page, I disabled landmarks and adjusted the map style. Since this application used the Maps API, I wanted the map to take a large section of the viewport. I decided on making it roughly 60% while leaving the other half for the user to see their options. Even if the screen size was too small I still wanted to user to be able to use 
 
-The centerpiece was the home page. This was where I wanted users to have an interactive experience. I scraped the navigation bar I made and created a roadmap. Normally, websites may have a "back to top" button, but I thought what if users could travel along with the page with this roadmap instead. I thought it was a fun addition but thought about how the pages would be represented. If they were just words, it would be no different than a vertical navigation bar. They could be represented by icons but the icons should fit a theme. The theme of a website dictates the color palette, the decor, the spacing, and even the font.
 
-#### ![Roadmap](/images/tech/roadmap.png)
-
-After mulling over ideas, I decided on making it urban-themed to represent the fact that I am based in NY. I thought "What icon could represent the city?" It was a roadmap so what mode of transportation represented that better than a taxi (I suppose maybe a train but let's go with taxi). I decided to track the active part of the page with a state variable and put an on click on the icons to set the active part of the page. And on state change the page would scroll to the active page. But I realized the roadmap only reflected the active part of the page when clicking on the icon. What if the user manually scrolled to the next section? From a previous project, I knew I could track when an element was in view using the Intersection Observer API. When the user scrolled, the observer would detect the element active and change the active part of the page to that element.
-
-I decided to hide the roadmap on the initial visit. I wanted the user to focus on the centerpiece of the home page and experience the site in a somewhat sequential rather than skipping around with the roadmap right away. Something I wanted to avoid was the roadmap ambushing the user when it did appear, so I wanted my home page's centerpiece to lead up to the road map. The home page also needed a way to navigate to different parts of the page in the event in case the user did want to see only a specific part of the site. I wanted the user to be presented with a choice rather than giving them all the controls from the start. I came up with the idea of having the choices be taxis that would roll off-screen when chosen to allude to the roadmap later. I made SVGs for the taxis and city background and animated them to create the home page.
-
-I wrapped up the project by finding a few SVGs to use as bullet points and wrote a description for the about page.
 
 ### Difficulties
 
@@ -49,7 +41,7 @@ useEffect(() => {
 
 ### What I Learned
 
-There were many "first timers" in this project. Though I had heard of GSAP and the Intersection Observer before, this was my first time using both of them. I thought GSAP was a phenomenal animation library and I thought the Intersection Observer was also incredibly useful. I learned how SVGs worked, animated SVG paths, and created my own for the first time in Figma. I also used EmailJS for the first time. This project enabled me to add many new tools to my repertoire.
+next config file image domains
 
 ### Concluding Thoughts
 

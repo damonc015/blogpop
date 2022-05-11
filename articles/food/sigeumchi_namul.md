@@ -5,7 +5,7 @@ title: "Sigeumchi Namul"
 image: "spinach.png"
 snippet: "Sigeumchi Namul, otherwise known as 'Spinach Banchan', is a Korean side dish that has quickly become one of my favorite vegetable appetizers.
 The dish combines blanched spinach with garlic, soy sauce, sesame oil, sugar, and black pepper to transform an otherwise plain vegetable dish into a mouthful of flavor."
-date: "September 12, 2021"
+date: "March 30, 2022"
 readTime: "3.3"
 tags: "cucumber, Asian, salad, appetizer" 
 ---

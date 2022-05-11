@@ -5,7 +5,7 @@ import ModalItem from "./ModalItem";
 
 const Modal = (props) => {
   const { allArticles } = props;
-  const [articles, food] = allArticles;
+  const [tech] = allArticles;
 
   const [positionStart, setPositionStart] = useState(0);
   const arrPositions = [
@@ -30,7 +30,7 @@ const Modal = (props) => {
   }
 
   useEffect(() => {
-    let timer = setInterval(increasePosition, 10000);
+    let timer = setInterval(increasePosition, 8000);
     return () => {
       clearInterval(timer);
     };
@@ -40,7 +40,7 @@ const Modal = (props) => {
     <div className={classes.modalContainer}>
       <Arrow direction="backwards" changePos={decreasePosition} />
       <div className={classes.modalItemsContainer}>
-        {food.map((article, index) => {
+        {tech.map((article, index) => {
           if (index > 3) return;
           return (
             <ModalItem
