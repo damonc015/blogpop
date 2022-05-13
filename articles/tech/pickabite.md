@@ -21,16 +21,18 @@ The first thing I wanted to do was bring up the map from the API. Up until this 
 
 Once I was able to render the map and the autocomplete search from Google onto the page, I disabled landmarks and adjusted the map style. Since this application used the Maps API, I wanted the map to take a large section of the viewport. I decided on making it roughly 60% while leaving the other half for the user to see their options. Even if the screen size was too small I still wanted to user to be able to see the map so for the mobile view I made the menu almost the entire screen but collapsable so the user could still see the map if they wanted to.
 
-The Places API returned up to 20 locations based on the inputted address that was being converted by the Geocoding API. Of those 20, 3 would randomly be selected and displayed. I wanted the user to be in suspense and not be able to see the results right away so each option returned a veiled object that required the user to click to unveil it. Each option when revealed would show images of the location, ratings, and reviews. These were fetched using the Places Detail portion of the Places API. In order to show all the photos I decided to have them on a carousel. I used SwiperJS for this. 
+The Places API returned up to 20 locations based on the inputted address that was being converted by the Geocoding API. Of those 20, 3 would randomly be selected and displayed. I wanted the user to be in suspense and not be able to see the results right away so each option returned a veiled object that required the user to click to unveil it. Each option when revealed would show images of the location, ratings, and reviews. These were fetched using the Places Detail portion of the Places API. In order to show all the photos I decided to have them on a carousel. I used SwiperJS and inserted each image as its on slide.  
+
+All that was left to do was add a cover onto each object. I created a layer on top of the object and on click would remove the object.
 
 ### Difficulties
 
-The most difficult part about this project had to be deciphering the documentation for the API
+Two major hurdles I faced in this project was understanding the documentation and finding the services I needed as a React component. The documentation was extensive and layered. In order to find certain services, I would have to view the service of a service. This took some time for me to understand but once I realized that was the case I was able to progress. The next issue I ran into was the sample code and instructions were in vanilla JavaScript. For each service I needed, I had to look for a third party package that condensed the code into a React componenet.
 
 ### What I Learned
 
-next config file image domains
+My ability to read dense documentation improved significantly from this project. Overcoming this hurdle enabled me to pick up other libraries easier. I also learned about SwiperJS as a library. In my previous project, I created a carosuel myself but learning SwiperJS has allowed me to use it as a substitute. SwiperJS also delivers other formats other than a carousel that could be used in future projects.
 
 ### Concluding Thoughts
 
-While I strived to make every page different in arrangement, I think if I came back to this project I could turn it into something greater. Overall though, I am proud that it does convey the interactive experience I had intended and I think the centerpiece for the home page was a great success.
+The centerpiece of this project was the map. When a location is searched a marker is shown. I would have loved to have added markers for every location revealed. However, the limitation of API calls did not allow for this and it felt the map lost a huge part of functionality. It meant the map would only be revealed for the initial location but I chose to keep it as the centerpiece. On the other hand, I loved how the potential restuarant choices came out. I think they came out playful and visually alluring. 
