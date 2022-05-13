@@ -3,9 +3,9 @@ category: "Tech"
 filename: "pickabite"
 title: "Pick a Bite"
 image: "gmapsPreview.png"
-snippet: "The process of creating an application utilizing the Google Maps API. My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site."
+snippet: "The process of creating an application utilizing the Google Maps API. When coming up with personal project ideas, I wanted to create projects that I was passionate about. Early on I had decided to create a food application as one of my interest is trying out new recipes. Another thing I wanted to accomplish was implementing a document heavy API. The first one that came to mind was the Google Maps API. A few months ago I had taken a look at the documentation and I honestly had no idea where to begin compared to other APIs I was using at the time. Often I would just make a fetch request and all the information would be received as an object. But Google's APIs were different. They required setup, they required research, and they required deciphering. This time around I was up for the challenge. With this application I wanted to find restaurants in an area. I wanted to create an application to solve indecision when it came to picking out food. I envisioned b
 date: "March 3, 2022"
-readTime: "5.3"
+readTime: "5"
 tags: "Google Maps API, SwiperJS, Google Maps, Pick a Bite, food, restaurants"
 ---
 
@@ -27,11 +27,15 @@ All that was left to do was add a cover onto each object. I created a layer on t
 
 ### Difficulties
 
-Two major hurdles I faced in this project was understanding the documentation and finding the services I needed as a React component. The documentation was extensive and layered. In order to find certain services, I would have to view the service of a service. This took some time for me to understand but once I realized that was the case I was able to progress. The next issue I ran into was the sample code and instructions were in vanilla JavaScript. For each service I needed, I had to look for a third party package that condensed the code into a React componenet.
+Two major hurdles I faced in this project was understanding the documentation and finding the services I needed as a React component. The documentation was extensive and layered. In order to find certain services, I would have to view branches on branches of different services. This took some time for me to understand but once I realized that was the case I was able to progress. 
+
+The next issue I ran into was the sample code and instructions were in vanilla JavaScript. For each service I needed, I had to look for a third party package that condensed the code into a React componenet. The problem was there were multiple packages that did this and I had to experiment to see which ones were compatible with the ones I had already begun to use. I wounded up using react-google-maps alongside use-places-autocomplete but there were many other options out there.
 
 ### What I Learned
 
-My ability to read dense documentation improved significantly from this project. Overcoming this hurdle enabled me to pick up other libraries easier. I also learned about SwiperJS as a library. In my previous project, I created a carosuel myself but learning SwiperJS has allowed me to use it as a substitute. SwiperJS also delivers other formats other than a carousel that could be used in future projects.
+My ability to read dense documentation improved significantly from this project. I had spent a significant portion of time of this project on reading documentation alone. Never had I dedicated so much time to prepare for starting a project than I have with this one. Also, having to search for multiple third party packages had reminded me that there would always be multiple solutions to a problem and it was up to me to decide which decision to take.
+
+I also learned about SwiperJS as a library. In my previous project, I created a carosuel myself but learning SwiperJS has allowed me to use it as a substitute. SwiperJS also delivers other formats other than a carousel  such as a panorama or shutter view that could be used in future projects.
 
 ### Concluding Thoughts
 
