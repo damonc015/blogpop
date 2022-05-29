@@ -2,55 +2,47 @@
 category: "Tech"
 filename: "stock_alerter"
 title: "Stock Alerter"
-image: "portPreview.png"
-snippet: "The process of creating my portfolio. My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site."
-date: "May 8, 2022"
-readTime: "5.3"
-tags: "stocks, finnhub api, fmp api, chartjs"
+image: "stockPreview.png"
+snippet: "My intended goal with this project was to create a web application to be able to track stock prices throughout the day and alert the user when an alert's conditions were met. This idea arose because when I first began investing I was always watching stocks and was glued to my screen. Though the stock would move up and down throughout the day, it would usually end right where it started. I was wasting a lot of time and only wanted to know when it moves past a certain threshold. With that thought, I decided to build Stock Alerter"
+date: "May 14, 2022"
+readTime: "5.5"
+tags: "stocks, finnhub websocket, fmp api, nextauth, marketaux api, chartjs"
 ---
 
-#### ![Portfolio](/images/tech/portPreview.png)
+#### ![Portfolio](/images/tech/stockPreview.png)
 
 ### Goal
 
-My intended goal with this project was to create an unconventional showcase of my work. Inspired by Bruno Simon's famous ThreeJS portfolio, I knew I wanted to create a portfolio that didn't look like a traditional website. I wanted to create an interactive experience for whoever visited my site.
+My intended goal with this project was to create a web application to be able to track stock prices throughout the day and alert the user when an alert's conditions were met. This idea arose because when I first began investing I was always watching stocks and was glued to my screen. Though the stock would move up and down throughout the day, it would usually end right where it started. I was wasting a lot of time and only wanted to know when it moves past a certain threshold. With that thought, I decided to build Stock Alerter. 
 
 ### Process
 
-As I looked into ThreeJS, the ideas I had in mind slowly dissipated as the realization dawned on me that using ThreeJS was more than picking up a library. I would need custom models for my ideas which would require learning the basics of 3D modeling. I decided on setting my prospects for a ThreeJS based portfolio aside for the time being and instead focus on creating an interactive experience with animation libraries like GSAP instead. I started by creating the sections of my page and was going to use snap align in CSS to make it so users had to focus on a section of the page. But as I tested it, I felt snap align was clunky and I wanted users to have the freedom to scroll and land in between the pages.
+This project was actually in the works several months ago and was one of the first projects I had ever worked on. I had just finished learning about React and there were several things I wanted to implement features including a search bar, a day/night mode, and audio for when a stock alert was triggered. While I successfully implemented these features after some trial and error, I ultimately decided to put this project on hold and learn more about server-side code when I came to the realization I could not hide any of my API credentials through React alone. Months later, I came back and looked at the poor choice of color palette I had chosen and how the site looked outdated.
 
-As I learned GSAP, the social icons were the first thing I animated with GSAP. After I created the showcase and contact page. The content for the showcase page was filled by my projects and the contact page only included a form so there was limited room for me to apply something creative. I applied a few animations but other than that they were left alone.
+#### ![oldSite](/images/tech/oldStockPreview.png)
 
-The centerpiece was the home page. This was where I wanted users to have an interactive experience. I scraped the navigation bar I made and created a roadmap. Normally, websites may have a "back to top" button, but I thought what if users could travel along with the page with this roadmap instead. I thought it was a fun addition but thought about how the pages would be represented. If they were just words, it would be no different than a vertical navigation bar. They could be represented by icons but the icons should fit a theme. The theme of a website dictates the color palette, the decor, the spacing, and even the font.
+At this point, I had worked on other projects, picked up NextJS, and learned more about designing a site and code organization. When I reopened my project and saw every file in the components folder with the CSS for every file in a global stylesheet I thought it better to just restart the project. 
 
-#### ![Roadmap](/images/tech/roadmap.png)
+This time around, with NextJS's pages functionality, I decided to make the application multipage. Unlike the first iteration, I wanted a clear navigation bar. The only issue was I wasn't sure what all the tabs would be. I came up with the idea to have an about page that explained the application and a page to search for news on a stock. To be honest, with the limited amount of articles I could fetch from the news API I found, the news page was more for show than functionality. The navigation bar looked empty with just the three options and I thought what if I added a logout feature. Finnhub's WebSocket only allowed for one connection at a time per API so I thought making a user need to authenticate before using it would lower the chances of someone having it open. 
 
-After mulling over ideas, I decided on making it urban-themed to represent the fact that I am based in NY. I thought "What icon could represent the city?" It was a roadmap so what mode of transportation represented that better than a taxi (I suppose maybe a train but let's go with taxi). I decided to track the active part of the page with a state variable and put an on click on the icons to set the active part of the page. And on state change the page would scroll to the active page. But I realized the roadmap only reflected the active part of the page when clicking on the icon. What if the user manually scrolled to the next section? From a previous project, I knew I could track when an element was in view using the Intersection Observer API. When the user scrolled, the observer would detect the element active and change the active part of the page to that element.
+The about page was composed of components filled with text and the news page displayed three articles fetched by the news API, Market Aux. Unlike my blog, I used getServerSideProps for the news page as well as for the home page as the information changed fast and the freshest data was needed. This would also allow me to hide my API keys. As for the home page or dashboard, I started the user off by viewing an empty watch list and empty notification menu. For the user to get started, they would have to search up specific stocks and add them to their watch list. From there they were able to set a notification for a specific stock if they so chose. 
 
-I decided to hide the roadmap on the initial visit. I wanted the user to focus on the centerpiece of the home page and experience the site in a somewhat sequential rather than skipping around with the roadmap right away. Something I wanted to avoid was the roadmap ambushing the user when it did appear, so I wanted my home page's centerpiece to lead up to the road map. The home page also needed a way to navigate to different parts of the page in the event in case the user did want to see only a specific part of the site. I wanted the user to be presented with a choice rather than giving them all the controls from the start. I came up with the idea of having the choices be taxis that would roll off-screen when chosen to allude to the roadmap later. I made SVGs for the taxis and city background and animated them to create the home page.
+On the specific stock page, I used ChartJS to display the information and also mapped out more detailed information about the stock such as market cap, volume, etc. in case the user wanted to use those as metrics to determine whether or not to add a stock to their watchlist. When a user enables notifications for a certain stock and set an alert they would be able to see on their dashboard the live price of that stock if the market was open. The user has the option to check whether the live price is below or above the price they had set. When the live price crosses the threshold the user set that stock would blink red. 
 
-I wrapped up the project by finding a few SVGs to use as bullet points and wrote a description for the about page.
+For the login page, I utilized react hook forms because it has built in form validation configuration. I created a single username and password on MongoDB as I was hoping only one person would use the application at a time given the WebSocket constraints. From there, I utilized NextAuth and wrapped its provider around my application. As every page was fetched from the server every time it was visited, I used NextAuth's getSession function to check if the user was authenticated on every new page they visited. 
 
 ### Difficulties
 
-I think what I struggled with the most was the creative aspect of the page. It took me a lot longer to come up with an entire theme, palette, and design as I wanted it to be unlike a traditional website. Another thing I struggled with was working with SVGs and understanding how their viewboxes operated. I had few technological difficulties with creating my portfolio. Creating a portfolio is a representation of the accumulated skills one has garnered after completing their projects. That was evident as every time I stumbled, I realized I had encountered a similar problem in the past. An example is when the Intersection Observer would trigger on every element so skipping around the site would have it trigger every element. I had created a site in the past that was also intended to be skipped around and to avoid having the observer trigger I would add a delay. Only when the page was settled on an element for a certain amount of time was the observer triggered. I simply translated this solution to React to resolve my issue.
+I struggled immensely working on this project. I had just finished a React basics tutorial and just jumped right into the project. Basics such as figuring out how to map arrays into HTML elements and why they needed keys, how state worked in the React lifecycle, using asynchronoous functions (setTimeout, setInterval, fetch, etc.), using the Context API, and the list goes on, these all served as hurdles when I first began coding the project months ago. It was a lot of research coupled with trial and error that got me through the first iteration of the project. When I thought I was almost done I found out I made the novice mistake of not knowing I had to hide my API keys. This was the catalyst for me to learn NextJS, so I could implement the data fetching server side. 
 
-```jsx
-useEffect(() => {
-  if (!inView) return;
-  lastTimeout.current = setTimeout(() => {
-    setActiveIcon("contact");
-  }, 1000);
-  return () => {
-    clearTimeout(lastTimeout.current);
-  };
-}, [inView]);
-```
+When I came back to the project, I struggled with far fewer things but the issues that remained were working with the WebSocket and sorting through the nested stock data from the APIs. There was so much data everything just felt like a blur. 
 
 ### What I Learned
 
-There were many "first timers" in this project. Though I had heard of GSAP and the Intersection Observer before, this was my first time using both of them. I thought GSAP was a phenomenal animation library and I thought the Intersection Observer was also incredibly useful. I learned how SVGs worked, animated SVG paths, and created my own for the first time in Figma. I also used EmailJS for the first time. This project enabled me to add many new tools to my repertoire.
+Aside from solving the earlier issues I had, I have a much more concrete understanding of React than when I first began. I learned state to be asynchronous and to mutate anything in a copy of the previous state. I learned the state hook can take a callback and can store the previous state as a parameter. I learned about the Context API, useEffect dependencies, and refs.
+
+As I was coding other projects in the time between the first and second iteration of this project, I realized the deeply nested data I worked with on this project made any nested data I worked with seem shallow. I better understand how WebSockets operate, I've become familiar with more window methods, and I dipped my toes into authentication learning about JWTs and session cookies. 
 
 ### Concluding Thoughts
 
-While I strived to make every page different in arrangement, I think if I came back to this project I could turn it into something greater. Overall though, I am proud that it does convey the interactive experience I had intended and I think the centerpiece for the home page was a great success.
+It feels like a huge accomplishment finishing this project. A circle from when I first started coding to everything I've accumulated now. I'll always be able to use it as a personal tool even the day it comes off my resume and portfolio and it has cemented my understanding of React, CSS, and Javascript. 

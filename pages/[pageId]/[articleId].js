@@ -20,7 +20,6 @@ SyntaxHighlighter.registerLanguage("jsx", jsx);
 
 const Article = (props) => {
   const { pageId, related, article } = props;
-  console.log(related)
   if (!article)
     return (
       <div>
